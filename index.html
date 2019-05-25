@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Chosen Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400|Raleway" rel="stylesheet">
+
+  <!-- Font Awesome Icon Style Sheet -->
+  <!-- Gervace confirmed that i can use font awesome for icon display -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="scripts\css\style.css">
+  <title>Gate Keepers - Home</title>
+</head>
+
+<body>
+
+  <!-- Nav -->
+  <header>
+    <nav class="colour-nav">
+      <ul class="nav">
+        <!-- Font awesome icon stuff below -->
+        <li class="colour-highlight"><i id="nav-icon" class="far fa-5x fa-hdd"></i></li>
+        <li><a class="colour-highlight" href="index.html">Home</a></li>
+        <li><a class="colour-highlight" href="about-us.html">About us</a></li>
+        <li><a class="colour-highlight" href="products.php">Products</a></li>
+        <li><a class="colour-highlight" href="services.html">Services</a></li>
+        <li><a class="colour-highlight" href="contact-us.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End of Nav -->
+
+  <!--Background Video and Overlay -->
+  <!-- Taken from: https://www.pexels.com/video/typing-of-codes-854053/ -->
+    <video autoplay muted loop id="background-video">
+      <source src="content\videos\backgroundvideo.mp4" type="video/mp4">
+    </video>
+
+
+  <div id="overlay-container">
+    <div>
+      <h1 class="centered">
+        <span id="overlay-text">
+          Welcome to Gate Keepers
+        </span>
+      </h1>
+    </div>
+  </div>
+  <!--End of Background Video and Overlay -->
+
+  <!-- Main Body Content -->
+  <div class="colour-content-1" style="background-image: url(content/images/texture-mask.png);">
+      <div class="inner-content-center">
+      <h1>What can we do for you?</h1>
+      <hr>
+      <p class="heading-paragraph">
+        Here at Gate Keepers, we supply a variety of services centered around the IT industy. In particular our
+        personnale are specially trained to provide a variety of services such as: data management, data migration, data security
+        , data server planning and implementing large scale IT solutions that are focused at the commercial sector, data recovery.
+        And much more! On top of this, we offer a variety of products for both the commcercial and personal sector, scroll further down for a little more information on these topics.
+        Or head over to the 'Services' and 'Products' pages where you can find all the information you will need.
+      </p>
+    </div>
+</div>
+  <div class="colour-content-4 top-inset-shadow">
+    <div class="inner-content">
+      <!-- Font awesome icon stuff below -->
+      <h1 class="top-spacing"><i class="fas fa-wrench"></i> Our Services</h1>
+      <hr>
+      <p class="heading-paragraph">
+        Here at Gate Keepers we offer a variety of services that specifically target commercial data,
+        if it has to do with servers, hard drives or data storage solutions. We have a service to suit your needs.
+        These services specifically include:
+      </p>
+      <ul class="content-list">
+        <li>Data recovery</li>
+        <li>Data protection</li>
+        <li>Data migration</li>
+        <li>System installation</li>
+        <li>System building</li>
+        <li>System installation</li>
+        <li>Enterprise system planning and implementation</li>
+      </ul>
+      <button onclick="window.location.href = 'services.html';" type="button" class=" btn btn-rounded" name="button">Check out our services!</button>
+    </div>
+  </div>
+  <div class="colour-content-2">
+    <div class="inner-content">
+      <!-- Font awesome icon stuff below -->
+      <h1><i class="fas fa-shopping-basket"></i> Our products</h1>
+      <hr>
+      <p class="heading-paragraph">
+        On top of this, we also sell a variety of products at our stores located all over the brisbane region, check down below for store locations.
+        These products, like our services are backed by our '100% meme' guaruntee, the products included are:
+      </p>
+      <ul class="content-list">
+        <li>Hard drive breach protection</li>
+        <li>Data recovery tools</li>
+        <li>Data back-up tools</li>
+        <li>And hard drive back-up tools</li>
+      </ul>
+      <button onclick="window.location.href = 'products.php';" type="button" class="btn btn-rounded" name="button">Check out our products!</button>
+    </div>
+  </div>
+  <div class="colour-content-3">
+    <div class="inner-content">
+      <!-- Font awesome icon stuff below -->
+      <h1><i class="fas fa-phone"></i> Get in touch</h1>
+      <hr>
+      <p class="heading-paragraph top-spacing">
+        As a company, we are always looking to improve our products and services, as ultimately you are the end user and customer,
+        our services and products are created for your needs. If you have any concerns, feedback or you are looking for a contact number for a commercial quote.
+        We will be more than happy to take your call, email or a face to face meeting. Please, come have a chat with us today.
+      </p>
+      <button onclick="window.location.href = 'contact-us.html';" type="button" class="btn btn-rounded" name="button">Come have a chat!</button>
+    </div>
+  </div>
+  <!-- End of Main Body Content -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="colour-nav" style="background-image: url(content/images/texture-mask.png);">
+      <div class="footer-content">
+        <p> &#9400; Gate Keepers Pty .Ltd 2019 - Gate keepers is a fictional company and does not own any copyright.<br> Created by Tyler Burnett</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+</body>
+</html>
